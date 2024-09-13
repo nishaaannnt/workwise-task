@@ -48,6 +48,7 @@ NOTE: You also need a ACCESS_SECRET_TOKEN for JWT
 for that you can use node. (Node should be installed)
 
 ```
+cd backend
 node
 ```
 
@@ -60,7 +61,6 @@ Above will give you a string then insert it in .env as ACCESS_TOKEN_SECRET
   npm install
 ```
 ```bash
-  cd backend
   nodemon server.js
 ```
 

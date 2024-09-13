@@ -25,6 +25,8 @@ What more I could have done -
 2. Would have hosted it on AWS :)
 3. Could have tried to dockerize it.
 
+### To have a quick look at all the apis -> Check routes
+
 ## Run them locally 
 ### 1. For Frontend
 Install dependencies

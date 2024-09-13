@@ -1,7 +1,8 @@
 import axios from 'axios';
 
-const AUTH_URL = 'http://localhost:4000/auth/v1';
-const API_URL = 'http://localhost:4000/api/v1'; 
+// this could be added in a .env file but for simplicity kept it here
+const AUTH_URL = 'https://workwise-task.onrender.com/:4000/auth/v1';
+const API_URL = 'https://workwise-task.onrender.com/:4000/api/v1'; 
 
 // Function to set the Authorization header with the JWT token
 export const setAuthToken = (token) => {
